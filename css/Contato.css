@@ -1,0 +1,224 @@
+*{margin: 0; padding: 0;}
+ 
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+background-image: url(../img/futebol.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed
+}
+
+header{
+    height: 66px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #000000;
+}
+
+
+nav{
+    width: 296px;
+    height: 29px;
+    background-color: #00000040;
+    margin: 0 auto;
+    margin-left: 796px;
+    margin-top: -54px;
+    text-decoration: none;
+}
+
+.menu{
+    list-style:none; 
+    float:left; 
+    }
+
+.menu li{
+    position:relative; 
+    float:left; 
+     
+}
+
+.menu li a{color: white; text-decoration:none; padding:6px 10px; display:block;}
+ 
+.menu li a:hover{
+    background:#333; 
+    background-color: #00000040;
+    color:#fff; 
+    -moz-box-shadow:0 3px 10px 0 #CCC; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+.menu li  ul{
+    position:absolute; 
+    top:29px; 
+    left:0;
+    background-color:rgba(34, 34, 34, 0.726); 
+    display:none;
+}   
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    
+    display:block; 
+    width:150px;
+}
+
+.decoration{
+    text-decoration: none;
+	color: black;
+}
+.logo{
+    margin-top: -8px;
+    margin-left: 87px;
+}
+
+.redes-sociais ul li{
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    }
+    
+.redes-sociais{
+    width: 21%;
+    float: left;
+    margin: -41px 1247px 10px;
+}
+
+h1{
+    margin-top: 94px;
+}
+
+.historia{
+    color: #CCC;
+    background-color: #0000006e;
+    width: 899px;
+    margin-left: 260px;
+    margin-top: 48px;
+    
+}
+
+.classif{
+    height: 3em;
+    background-color: #46464663;
+    border-radius: 2px;
+    margin-top: 63px;
+    color: white;
+}
+
+.tablesize {
+    width: 30px;
+    height: 5px;
+    background-color: #e2dfdf63;
+    border-radius: 0px;
+}
+
+.tablesize1 {
+    width: 34px;
+    height: 5px;
+    background-color: #e2dfdf63;
+    border-radius: 0px;
+}
+
+.tablesize2 {
+    width: 101px;
+    height: 5px;
+    background-color: #e2dfdf63;
+    border-radius: 0px;
+}
+
+
+.socialrodape{
+    margin: -5px;
+}
+
+.nometime{
+    color:white;
+    font-size: 25px;
+}
+
+.Introducao{
+    width: 385px;
+    margin-left: 329px;
+}
+.formulario{
+    background-color: #0000002e;
+    width: 299px;
+    margin-top: -45px;
+    margin-left: 572px;
+    color: white;
+}
+.contatos{
+    margin-top: 84px;
+    background-color: #0000002e;
+    width: 488px;
+    text-align: center;
+    height: 242px;
+    margin-left: 482px;
+    color: white;
+}
+.menurodape{
+    margin-left: 10px;
+}
+
+.jkl{
+	     float: right;
+    margin-top: 79px;
+    margin-right: -890px;
+    font-size: 16px;
+}
+
+.abc{
+	       margin-top: 32px;
+    margin-left: 104px;
+    font-size: 17px;
+    float: left;
+}
+.def{
+	      float: right;
+    margin-top: 30px;
+    margin-right: -715px;
+    font-size: 18px;
+}
+.ghi{
+	       float: right;
+    margin-top: 55px;
+    margin-right: -742px;
+    font-size: 16px;
+}
+
+.redes-sociais2 ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    }
+    
+.redes-sociais2{
+	    width: 21%;
+    float: left;
+    margin:56px 119px 10px;
+}
+
+#rodape{
+    width: 100%;
+    position: relative;
+    height: 116px;
+    background-color: black;
+    color: white;
+    margin-top: 163px;
+}
+
+#logo{
+       float: right;
+    margin-right: 702px;
+    margin-top: 16px;
+}
+
+.redes-sociais2{
+    width: 21%;
+    float: left;
+    margin: 55px 117px 0px;
+    position: absolute;
+}
